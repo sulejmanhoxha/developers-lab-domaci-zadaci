@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Newspaper</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    </head>
+
+    <body class="bg-[#FAF7F2] font-['Bitter',_serif] px-4">
+        <main class="container mx-auto transition-all duration-300">
+            <h1 class="text-center text-4xl my-4 font-bold uppercase tracking-wider font-['Abril_Fatface',_serif]">Newspaper Title</h1>
+            <div class="time border-b-2 border-t-2 border-black py-2 text-center">
+                <time class="bg-[rgba(185,153,98,0.24)] px-2 py-1 rounded font-bold text-lg uppercase" datetime="2021-09-07">Tuesday, 5<sup>th</sup> September 2021</time>
+            </div>
+            <article class="py-6">
+                <section class="lg:columns-3 md:columns-2 columns-1 gap-10 [column-rule:1px_solid_black]">
+                    <h2 class="md:pt-6 text-4xl tracking-wide uppercase font-semibold">Article heading</h2>
+                    <div class="my-3 text-lg">John Doe</div>
+                    <p class="text-justify mb-4">
+                        Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at
+                        lobortis. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.
+                    </p>
+
+                    <p class="text-justify mb-4" class="mt-4">
+                        Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus vel
+                        augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                    </p>
+                </section>
+                <blockquote class="max-sm:px-6 px-10 py-8 text-3xl font-semibold before:content-['\201C'] after:content-['\201D']">
+                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+                </blockquote>
+
+                <section class="lg:columns-3 md:columns-2 columns-1 gap-10 [column-rule:1px_solid_black]">
+                    <p class="text-justify mb-4">
+                        Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Cras justo odio,
+                        dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum.
+                    </p>
+                    <h3 class="mt-6 mb-2 uppercase font-semibold text-2xl tracking-wide">Subheading</h3>
+                    <ul class="list-disc pl-6 space-y-1 mb-4">
+                        <li>List item 1</li>
+                        <li>List item 2</li>
+                        <li>List item 3</li>
+                    </ul>
+                    <p class="text-justify mb-4">
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus
+                        et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur.
+                    </p>
+                    <p class="text-justify mb-4">
+                        Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed
+                        consectetur.
+                    </p>
+                    <h3 class="mt-6 mb-2 uppercase font-semibold text-2xl tracking-wide">Subheading</h3>
+
+                    <p class="text-justify mb-4">
+                        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Aenean lacinia
+                        bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante
+                        venenatis dapibus posuere velit aliquet.
+                    </p>
+
+                    <figure class="float-left mr-4 mb-4">
+                        <img src="https://raw.githubusercontent.com/michaelgearon/Tiny-CSS-Projects/main/chapter-04/after/image.jpg" alt="" />
+                        <figcaption class="text-lg font-semibold text-center mt-4">Golden Gate Bridge</figcaption>
+                    </figure>
+                    <p class="text-justify mb-4">
+                        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor
+                        ligula, eget lacinia odio sem nec elit.
+                    </p>
+                </section>
+            </article>
+        </main>
+    </body>
+</html>
